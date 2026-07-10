@@ -612,11 +612,38 @@ footer {
   }
 }
 
+/* Dark mode */
+body.dark-mode {
+  --background: #121212;
+  --surface: #1e1e1e;
+  --text-primary: #e0e0e0;
+  --text-secondary: #aaaaaa;
+  --border: #333333;
+  --border-light: #2a2a2a;
+  --border-focus: #444444;
+  --primary: #534bae;
+  --primary-light: #7b72e0;
+  --primary-dark: #1a237e;
+  --success-light: #1b3320;
+  --warning-light: #3d2e00;
+  --error-light: #3d0000;
+  --info-light: #0a2128;
+}
+
+#dark-mode-toggle {
+  margin-right: 8px;
+  font-size: 1rem;
+  padding: 4px 10px;
+}
+
 /* User controls in header */
 #user-controls {
   position: absolute;
   top: 10px;
   right: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 #user-status {
