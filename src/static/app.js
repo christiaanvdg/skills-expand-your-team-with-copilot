@@ -321,11 +321,14 @@ document.addEventListener("DOMContentLoaded", () => {
       return "sports";
     } else if (
       name.includes("art") ||
+      name.includes("manga") ||
       name.includes("music") ||
       name.includes("theater") ||
       name.includes("drama") ||
       desc.includes("creative") ||
-      desc.includes("paint")
+      desc.includes("paint") ||
+      desc.includes("manga") ||
+      desc.includes("graphic novel")
     ) {
       return "arts";
     } else if (
